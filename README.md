@@ -36,3 +36,9 @@ This is exactly what we want!  Now we can navigate through our database using ke
 ![alt text](http://i.imgur.com/VNhMkNS.png)
 
 ![alt text](http://i.imgur.com/RaUjGGw.png)
+
+Or query a beer's availability:
+
+![alt text](http://i.imgur.com/qZ3Z1LB.png)
+
+![alt text](http://i.imgur.com/GK3wdCW.png)

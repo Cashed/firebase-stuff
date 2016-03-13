@@ -15,3 +15,11 @@ for (var beer = 0; beer < soundList.length; beer++) {
 }
 
 soundBeers.child('Poundage Porter').set({isAvailable: 'false'});
+
+soundBeers.once('value', function(allBeers) {
+  allBeers.forEach(function(specificBeer) {
+    if (specificBeer.key() === 'Poundage Porter') {
+      console.log(specificBeer.val().isAvailable);
+    }
+  });
+});
